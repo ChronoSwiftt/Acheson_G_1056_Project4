@@ -17,18 +17,17 @@ body
 	width: 160px;
 	height:775px;
 	background-color:red;
-	/*margin-left: 165px;
-	margin-top: -775px;*/
 }
 }
 
 .Align
 {
 	display: flex;
-  	flex-flow: row wrap;
+  	flex-flow: nowrap;
   	justify-content: space-between;
 }
 
+@media only screen and (min-width: 642px) {
 #column1
 {
 	width: 160px;
@@ -55,6 +54,7 @@ body
 	width: 160px;
 	height:775px;
 	background-color:brown;
+}
 }
 .hidden
 {
