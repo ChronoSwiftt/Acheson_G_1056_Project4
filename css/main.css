@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 641px) {
+body
+{
+	background-color: green;
+}
+.columnmedia1
+{
+	width: 160px;
+	height:775px;
+	background-color:pink;
+}
+
+.columnmedia2
+{
+	width: 160px;
+	height:775px;
+	background-color:red;
+	/*margin-left: 165px;
+	margin-top: -775px;*/
+}
+}
+
+.Align
+{
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: space-between;
+}
+
+#column1
+{
+	width: 160px;
+	height:775px;
+	background-color:blue;
+}
+
+#column2
+{
+	width: 160px;
+	height:775px;
+	background-color:purple;
+}
+
+#column3
+{
+	width: 160px;
+	height:775px;
+	background-color:grey;
+}
+
+#column4
+{
+	width: 160px;
+	height:775px;
+	background-color:brown;
+}
+.hidden
+{
+	display: none;
+}
